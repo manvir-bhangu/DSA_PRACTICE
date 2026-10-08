@@ -1,7 +1,6 @@
 
-
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: List[int], k: int) -> list [int]:
         count = Counter(nums)
 
         buckets = [[] for _ in range(len(nums) + 1)]
